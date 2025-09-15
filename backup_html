@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
+
+<html lang="en">
+<head>
+  <title>Rui Huang</title>
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="_ZdbNr5fqZ8E6VVLwjAK19UrLdiQ5fP95EI9cGw9gBE" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="#">Projects</a></li>
+				  <li><a href="#publications">Publications</a></li> 
+				  <li><a href="./pdfFile.pdf">CV</a></li> 
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+  
+  <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Entries Column -->
+            <div class="col-md-8">
+                
+                <!-- Main Image -->
+                <img class="img-responsive" src="rui_huang_photo.jpg" width="300" height="390" alt=""><br>
+                
+                <p style="margin-top:3%; text-align:justify;">
+			
+			I am a Senior Research Engineer at <a href="https://sra.samsung.com/">Samsung Research America</a>, Standards and Mobility Innovation (SMI) Lab, with my expertise in research and development (R&D) in the Next Generation of Wireless Systems. <p>
+
+			Previously, I obtained my Ph.D. from <a href="https://ece.ubc.ca/">The University of British Columbia</a> under the supervision of Professor <a href="https://people.ece.ubc.ca/~vincentw/Homepage/Home.html">Vincent Wong</a>. <p>  
+
+            </div> 
+
+            <!-- Contact Info on the Sidebar -->
+            <div class="col-md-4">
+                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;">Rui (Ray) Huang</div></b><br>
+                <p><b>rui.huang at samsung dot com</b><br>
+			<p>Senior Research Engineer, Samsung Research America
+			<p>565 Great Northern Way
+			<p>Vancouver, BC V5T 0H8
+                </p>
+            </div>
+		
+            <!-- Links on the Sidebar -->
+            <div class="col-md-4" style="margin-top:2%">
+					<dd><a href="https://scholar.google.ca/citations?user=H8gRaYUAAAAJ">Google Scholar</a></dd>
+					<dd><a href="https://www.researchgate.net/profile/Rui-Huang-113">ResearchGate</a></dd>													
+			</div>
+            </div>
+
+	    <div class="col-md-8" style="height: 40vh;">    
+		<h2 id="highlights">Summary of Experiences</h2>
+		<ul>
+		<li> 8-year of R\&D experience in wireless systems (5G, Beyond 5G, 6G), with the focus on physical and medium access control layers. Designed solid multi-antenna processing (e.g., beamforming and beam management) and MIMO solutions that have been deployed in commercial network devices. </li>
+		<li> Lead inventors/co-inventors of multiple US/WO patent application filings with 3GPP standard impacts. Extensive patent portfolio in the areas of (distributed MIMO) systems and beamforming. </li>
+		<li> 5-year experience in applying machine learning techniques to solve real-world engineering problems in 5G/6G systems. Hands-on experience with advanced DNNs, e.g., Transformer, graph neural networks.  </li>
+		<li> Authored/co-authored multiple publications in top IEEE journals and conferences, with expertise in wireless signal processing, beamforming, and multi-antenna systems. Experienced with industrial and academic collaborations. </li>
+		</ul>
+	    </div>
+	    
+	    <!-- ResearchHighlights -->
+            <div class="col-md-8" style="height: 20vh;">    
+                <h2 id="highlights">Research Highlights</h2>
+                <ul>
+                <li> Deep Learning for Network Enhancements (CSI acquisition, Precoding, Beamforming):
+		<li> Reliability and Efficiency Enhancements for Wireless Networks:  </li>
+		<li> Precoding and Beamforming for Large/Distributed Antenna Arrays: </li>
+                </ul>
+
+            </div>
+
+         <!-- PatentPortfolio -->
+            <div class="col-md-8" style="height: 70vh;">    
+                <h2 id="publications">Patent Portfolio</h2>
+		
+		<p> 
+		I have proposed various system-level solutions and designs to enhance the reliability and efficiency of wireless networks. 
+		My designs utilized tools ranging from AI and machine learning to classic mathematical and statistical methods.
+		</p>
+
+		<strong> Network Reliability Enhancements</strong>
+		<ul>
+		<li> <strong>Rui Huang</strong>, Nadisanka Rupasinghe, and Kyung-Joong Kim, Method and Apparatus in Distributed MIMO (Method 2), USPTO App. No. 18/427,187, Samsung Electronics Co., Ltd., Oct. 2023. </li>
+
+		<li> <strong>Rui Huang</strong>, Thuy Nguyen, Yang Li, and Nadisanka Rupasinghe, Method and Apparatus in Distributed MIMO (Method 1), USPTO App. No. 18/405,751, Samsung Electronics Co., Ltd., July 2023. </li>
+               </ul>
+		<strong> Beamforming and Precoding Enhancements </strong>
+                <ul>
+		
+		<li> <strong>Rui Huang</strong>, Nadisanka Rupasinghe, Yang Li, and Jianzhong (Charlie) Zhang, CSI-Error Aware Multiuse Precoding, USPTO App. No. 63/737,189, Samsung Electronics Co., Ltd., Dec. 2024. </li>
+
+		<li> <strong>Rui Huang</strong>, Nadisanka Rupasinghe, Yang Li, and Jianzhong (Charlie) Zhang, Method and Apparatus for Joint Transmission in MIMO with CSI Sharing, USPTO App. No. 63/704,808, Samsung Electronics Co., Ltd., Oct. 2024. </li>
+
+		<li> <strong>Rui Huang</strong> and Nadisanka Rupasinghe, Joint Transmission in Distributed MIMO System, USPTO App. No. 63/663,544, Samsung Electronics Co., Ltd., Jul. 2024. </li>
+			
+		<li> <strong>Rui Huang</strong> and Nadisanka Rupasinghe, Precoder Design for Distributed MIMO Systems, USPTO App. No. 63/569,870, Samsung Electronics Co., Ltd., Mar. 2024. </li>
+
+		<li> Nadisanka Rupasinghe and <strong>Rui Huang</strong>, Precoder Design for Interference Management in MIMO Systems, USPTO App. No. 63/570,160, Samsung Electronics Co., Ltd., Mar. 2024. </li>
+
+		<li> <strong>Rui Huang</strong> and Sanjeewa Herath, Method and Apparatus for Integrated Sensing and Communication Systems, USPTO App. No. 18/435,834, Samsung Electronics Co., Ltd., Nov. 2023. </li>
+
+               </ul>
+            </div>
+	    
+            <!-- Publications -->
+            <div class="col-md-8" style="height: 100vh;">    
+                <h2 id="publications">Publications</h2>
+                
+                <ul>
+		<li> <strong>Rui Huang</strong>, Vincent W.S. Wong, and Robert Schober, ``Rate-Splitting for Intelligent Reflecting Surface-aided Multiuser VR Streaming,''  <i>IEEE Journal on Selected Areas in Communications </i>,  vol. 41, no. 5, pp. 1516-1535, May 2023. <a href="https://github.com/ruihuang1967/RSMA-VR">Source Code</a> </li>
+		<li> <strong>Rui Huang</strong> and Vincent W.S. Wong, ``Joint User Scheduling, Phase Shift Control, and Beamforming Optimization in Intelligent Reflecting Surface-Aided Systems,'' <i>IEEE Transactions on Wireless Communications</i>, vol. 21, no 9, pp. 7521-7535, Sept. 2022.</li>
+		<li> Farhad Dashti Ardakani, <strong>Rui Huang</strong>, and Vincent W.S. Wong, ``Joint Device Pairing, Reflection Coefficients, and Power Control for NOMA Backscatter Systems,'' <i>IEEE Transactions on Vehicular Technology</i>, vol. 71, no. 4, pp. 4396-4411, Apr. 2022.</li>
+		<li> <strong>Rui Huang</strong>, Vincent W.S. Wong, and Robert Schober, ``Throughput Optimization for Grant-Free Multiple Access with Multiagent Deep Reinforcement Learning,'' <i>IEEE Transactions on Wireless Communications</i>, vol. 20, no. 1, pp. 228-242, Jan. 2021. </li>
+		<li> <strong>R. Huang</strong>, Vincent W.S. Wong, and Robert Schober, "Throughput Optimization in Grant-Free NOMA with Deep Reinforcement Learning," <i>in Proc. of IEEE Global Communications Conference (Globecom)</i>, Waikoloa, HI, Dec. 2019. &nbsp; <a rel="nofollow" href="publications/Globecom19.pdf" target="_parent">[Pdf]</a></li>
+        	<li> Cinnie Hsiung, <strong>R. Huang</strong>, Yong Zhou, and Vincent W.S. Wong, "Dynamic User Pairing and Power Allocation for Throughput Maximization in NOMA Systems," <i>in Proc. of the 5th International Workshop on Non-Orthogonal Multiple Access Techniques for 5G, co-located with IEEE ICC19</i>, Shanghai, China, May 2019. &nbsp; <a rel="nofollow" href="publications/ICCwksp19.pdf" target="_parent">[Pdf]</a></li>
+        	<li> <strong>R. Huang</strong>, J. Wu, C. Long, Y. Zhu, B. Li and Y. Lin, "Mitigate the Obstructing Effect of Vehicles on the Propagation of VANETs Safety-Related Information," <i>in IEEE Transactions on Vehicular Technology</i>, vol. 67, no. 7, pp. 5558-5569, July 2018. &nbsp; <a rel="nofollow" href="publications/SPRCA-TVT.pdf" target="_parent">[Pdf]</a></li>
+        	<li> <strong>R. Huang</strong>, J. Wu, C. Long, Y. Zhu, B. Li and Y. Lin, "SPRCA: Distributed Multisource Information Propagation in Multichannel VANETs," in <i>IEEE Transactions on Vehicular Technology</i>, vol. 66, no. 12, pp. 11306-11316, Dec. 2017. &nbsp; <a rel="nofollow" href="publications/MBER-TVT.pdf" target="_parent">[Pdf]</a> </li>
+                <li> <strong>R. Huang</strong>, J. Wu, C. Long, Y. Zhu and Y. Lin, "Mitigate the obstructing effect of vehicles on the propagation of VANETs safety-related information," 2017 IEEE Intelligent Vehicles Symposium (IV), Los Angeles, CA, 2017, pp. 1893-1898.</li>
+               </ul>
+            </div>
+
+            
+        </div>
+
+
+    </div>
+    <!-- /.container -->
+    
+    <!-- Other people may like it too! -->
+    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
+    
+</body>
+
+</html>
