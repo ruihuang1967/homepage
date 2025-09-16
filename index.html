@@ -21,6 +21,7 @@
     .navbar a {
       color: #e0e1dd !important;
     }
+    
     .profile-img {
       max-width: 220px; /* default for desktop */
       border-radius: 8px;
@@ -40,6 +41,23 @@
     
     section {
       margin-bottom: 3rem;
+    }
+
+    h1 {
+      font-size: 2rem;   /* smaller than default */
+      font-weight: 700;  /* keep it bold */
+    }
+    
+    @media (max-width: 768px) { /* tablet and smaller */
+      h1 {
+        font-size: 1.75rem;
+      }
+    }
+    
+    @media (max-width: 480px) { /* mobile */
+      h1 {
+        font-size: 1.5rem;
+      }
     }
     h2 {
       margin-top: 1.5rem;
