@@ -22,9 +22,22 @@
       color: #e0e1dd !important;
     }
     .profile-img {
-      max-width: 200px;
+      max-width: 220px; /* default for desktop */
       border-radius: 8px;
     }
+    
+    @media (max-width: 768px) { /* tablet and smaller screens */
+      .profile-img {
+        max-width: 120px; /* smaller on mobile */
+      }
+    }
+    
+    @media (max-width: 480px) { /* very small screens */
+      .profile-img {
+        max-width: 100px; /* extra small mobile */
+      }
+    }
+    
     section {
       margin-bottom: 3rem;
     }
