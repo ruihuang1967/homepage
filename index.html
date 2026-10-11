@@ -1,72 +1,89 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rui (Ray) Huang — Senior Research Engineer</title>
+
+  <meta name="description" content="Rui (Ray) Huang is a Senior Research Engineer at RBC Borealis AI, working on AI/ML research and applied machine learning, with a background in wireless communications, 5G/6G systems, and advanced MIMO technologies.">
+
+  <title>Rui (Ray) Huang — Senior Research Engineer, RBC Borealis AI</title>
 
   <!-- Bootstrap 5 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  >
 
   <style>
     body {
       font-family: 'Inter', sans-serif;
       line-height: 1.6;
+      padding-top: 76px;
     }
+
     .navbar {
       background-color: #0d1b2a;
     }
+
     .navbar a {
       color: #e0e1dd !important;
     }
-    
+
     .profile-img {
-      max-width: 220px; /* default for desktop */
+      max-width: 220px;
       border-radius: 8px;
     }
-    
-    @media (max-width: 768px) { /* tablet and smaller screens */
+
+    @media (max-width: 768px) {
       .profile-img {
-        max-width: 150px; /* smaller on mobile */
+        max-width: 150px;
       }
     }
-    
-    @media (max-width: 480px) { /* very small screens */
+
+    @media (max-width: 480px) {
       .profile-img {
-        max-width: 120px; /* extra small mobile */
+        max-width: 120px;
       }
     }
-    
+
     section {
       margin-bottom: 3rem;
     }
 
     h1 {
-      font-size: 2rem;   /* smaller than default */
-      font-weight: 700;  /* keep it bold */
+      font-size: 2rem;
+      font-weight: 700;
     }
-    
-    @media (max-width: 768px) { /* tablet and smaller */
+
+    @media (max-width: 768px) {
       h1 {
         font-size: 1.75rem;
       }
     }
-    
-    @media (max-width: 480px) { /* mobile */
+
+    @media (max-width: 480px) {
       h1 {
         font-size: 1.5rem;
       }
     }
+
     h2 {
       margin-top: 1.5rem;
       margin-bottom: 1rem;
       font-weight: 600;
     }
+
     .muted {
       color: #6c757d;
     }
+
     .card {
       border: none;
       background-color: #f8f9fa;
@@ -74,78 +91,217 @@
       border-radius: 10px;
       margin-bottom: 1rem;
     }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .navbar-brand:hover,
+    .navbar .nav-link:hover {
+      text-decoration: none;
+    }
   </style>
 </head>
+
 <body>
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
   <div class="container">
     <a class="navbar-brand fw-bold" href="#">Rui Huang</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navMenu"
+      aria-controls="navMenu"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-        <li class="nav-item"><a class="nav-link active" href="patents.html">Patents</a></li>
-        <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
-        <li class="nav-item"><a class="nav-link" href="pdfFile.pdf">CV</a></li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#about" aria-current="page">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#expertise">Expertise</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="patents.html">Patents</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="publications.html">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pdfFile.pdf">CV</a>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
 
 <!-- Main Content -->
-<div class="container" style="margin-top:100px;">
+<main class="container">
 
   <!-- About -->
   <section id="about" class="row align-items-center mb-5">
+
     <div class="col-md-4 text-center mb-3 mb-md-0">
-      <img src="rui_huang_photo.jpg" alt="Portrait of Rui Huang" class="img-fluid profile-img">
+      <img
+        src="rui_huang_photo.jpg"
+        alt="Portrait of Rui Huang"
+        class="img-fluid profile-img"
+      >
     </div>
+
     <div class="col-md-8">
-      <h1 class="fw-bold">Rui (Ray) Huang</h1>
-      <p class="muted">Senior Research Engineer, Samsung Research America</p>
-      <p>
-        I am a Senior Research Engineer at <a href="https://sra.samsung.com/" target="_blank">Samsung Research America</a>, 
-        Standards and Mobility Innovation (SMI) Lab, specializing in R&D for the Next Generation of Wireless Systems.
+      <h1>Rui (Ray) Huang</h1>
+
+      <p class="muted">
+        Senior Research Engineer, AI Solutions, RBC Borealis AI
       </p>
+
       <p>
-        I received my Ph.D. from <a href="https://ece.ubc.ca/" target="_blank">The University of British Columbia</a> in 2022, and my M.Sc. degree from <a href="https://english.seiee.sjtu.edu.cn/english/index.htm" target="_blank">Shanghai Jiao Tong University</a> in 2018.
+        I am a Senior Research Engineer at
+        <a href="https://rbcborealis.com/" target="_blank" rel="noopener noreferrer">RBC Borealis AI</a>,
+        where I work on AI/ML research and applied machine learning.
+        My interests include developing machine learning methods and
+        translating research ideas into practical solutions.
       </p>
+
       <p>
-        <a href="https://scholar.google.ca/citations?user=H8gRaYUAAAAJ" target="_blank">Google Scholar</a> · 
-        <a href="https://www.researchgate.net/profile/Rui-Huang-113" target="_blank">ResearchGate</a>
+        Before joining RBC Borealis AI, I worked at
+        <a href="https://sra.samsung.com/" target="_blank" rel="noopener noreferrer">Samsung Research America</a>,
+        focusing on next-generation wireless systems, including 5G,
+        Beyond-5G, and 6G technologies. My experience spans wireless
+        system design, advanced MIMO, AI/ML-assisted communications,
+        and 3GPP standardization.
+      </p>
+
+      <p>
+        I received my Ph.D. in Electrical and Computer Engineering
+        from <a href="https://ece.ubc.ca/" target="_blank" rel="noopener noreferrer">The University of British Columbia</a>
+        in 2023, and my M.Sc. degree from
+        <a href="https://english.seiee.sjtu.edu.cn/english/index.htm"
+           target="_blank" rel="noopener noreferrer">Shanghai Jiao Tong University</a>
+        in 2018.
+      </p>
+
+      <p>
+        <a href="https://scholar.google.ca/citations?user=H8gRaYUAAAAJ"
+           target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        ·
+        <a href="https://www.researchgate.net/profile/Rui-Huang-113"
+           target="_blank" rel="noopener noreferrer">ResearchGate</a>
       </p>
     </div>
+
   </section>
 
   <!-- Experience -->
   <section id="experience">
-    <h2>Summary of Experiences</h2>
+    <h2>Professional Experience</h2>
+
     <ul>
-      <li>8 years of Engineering experience in Telecom. systems (5G/6G), focusing on PHY and MAC layers, including beamforming and MIMO solutions deployed in commercial networks, and AI/ML Applications in commercial Telecom. systems. </li>
-      <li>Lead inventor/co-inventor of 15+ US/WO patents with 3GPP Standardization impact.</li>
-      <li>Collaborating with patent law firms to provide technical consultation and support in patent drafting, filing, and portfolio management.</li>
-      <li>Published in top academic journals and conferences.</li>
+      <li>
+        8+ years of R&D experience in wireless communications and
+        next-generation telecom systems, spanning 5G, Beyond-5G,
+        and 6G technologies.
+      </li>
+
+      <li>
+        Experience in AI/ML research and engineering, including
+        machine learning methods for wireless communications and
+        applied AI solutions.
+      </li>
+
+      <li>
+        Research and development in physical-layer and MAC-layer
+        technologies, including precoding, beamforming, Massive MIMO,
+        and Distributed MIMO.
+      </li>
+
+      <li>
+        Lead inventor or co-inventor on 15+ US and WO patent
+        applications, with contributions related to wireless
+        technologies and 3GPP standardization.
+      </li>
+
+      <li>
+        Experience collaborating with patent professionals on
+        technical consultation, patent drafting, filing, and
+        portfolio development.
+      </li>
+
+      <li>
+        Author of peer-reviewed research publications in academic
+        journals and conferences.
+      </li>
     </ul>
   </section>
 
-  <!-- Research Highlights -->
-  <section id="highlights">
-    <h2>Technical Expertises</h2>
+  <!-- Technical Expertise -->
+  <section id="expertise">
+    <h2>Technical Expertise</h2>
+
     <ul>
-      <li>AI/ML Design and Deployment in Telecom. Systems (SW/HW) </li>
-      <li>Precoding, Beamforming, and HW Time-Frequency Calibration in Advanced MIMO Systems (Massive MIMO, Distributed MIMO)</li>
-      <li>Reliability and Efficiency Enhancements for Wireless Networks</li>
+      <li>
+        <strong>Machine Learning and AI:</strong>
+        Applied ML research, model development, representation
+        learning, and AI/ML integration into practical systems.
+      </li>
+
+      <li>
+        <strong>Time-Series Modeling:</strong>
+        Forecasting, predictive modeling, and data-driven analysis.
+      </li>
+
+      <li>
+        <strong>Wireless Communications:</strong>
+        5G, Beyond-5G, 6G, PHY/MAC design, and wireless system
+        performance optimization.
+      </li>
+
+      <li>
+        <strong>Advanced MIMO Systems:</strong>
+        Massive MIMO, Distributed MIMO, precoding, beamforming,
+        and hardware time-frequency calibration.
+      </li>
+
+      <li>
+        <strong>Industry Research and Innovation:</strong>
+        3GPP standardization, patent development, and translation
+        of research concepts into practical engineering solutions.
+      </li>
     </ul>
   </section>
 
-</div>
+</main>
+
+<!-- Footer -->
+<footer class="container text-center muted py-3">
+  <small>&copy; <span id="currentYear"></span> Rui (Ray) Huang</small>
+</footer>
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  document.getElementById("currentYear").textContent =
+    new Date().getFullYear();
+</script>
+
 </body>
 </html>
+```
